@@ -4,10 +4,13 @@ array_3 = [98.6, 101.2, 40.1, 26.3]
 array_4 = [true, true, false, true, false]
 
    
-
+    # .unshift used to fill the array with elements that will begin at the front of an array
    puts array_2.unshift
+    # .shift removes the first element of an array
    puts array_4.shift
+   # .pop removes the last element of a given array
    puts array_1.pop
+   # .push used to push the given element at the end of an array
    puts array_3.push
    
    
