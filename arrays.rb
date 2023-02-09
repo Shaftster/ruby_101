@@ -22,3 +22,5 @@ array_4 = [true, true, false, true, false]
    # index to find integer '1984 in array_2
    puts array_1[1]
    # index to find 'dogs' in array_1
+   array_2.delete_if {|array_2| array_2 < 1982}
+   # .deletes, deletes every element of self whice block evaluates to true
